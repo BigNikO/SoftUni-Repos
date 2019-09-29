@@ -1,0 +1,18 @@
+using System;
+using System.Linq;
+
+namespace Lab1SortEvenNumbers
+{
+    class SortEvenNumbers
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(String.Join(", ",Console.ReadLine()
+                .Split(", ")
+                .Select(int.Parse)
+                .ToArray()
+                .Where(x => x % 2 == 0)
+                .OrderBy(x => x)));
+        }
+    }
+}

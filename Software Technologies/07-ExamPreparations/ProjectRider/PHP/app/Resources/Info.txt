@@ -1,0 +1,24 @@
+//check the database name in the config/parameters.yml
+//to create the database - write php bin/console doctrine:database:create --if-not-exists
+// to update the database  - php bin/console doctrine:schema:update
+// then it asks to choose operation php bin/console doctrine:schema:update --dump-sql,
+// in this way i can see the source tha will throw to the database
+// php bin/console doctrine:schema:update --force, update the table from the entity
+----------------------------------------------------------------------------------------
+
+
+//delete the entity, the form and the repository
+// php bin/console doctrine:generate:entity
+// Пиша името на бъндела:името на Таблицата в базата данни
+//enter
+//
+// Създавам форма, ако няма или съм я изтрил
+// php bin/console doctrine:generate:form AppBundle:Project , !!!!!!изтриваме блогпрефикса от формата!!!!!!
+//check if the form is ok before deleting ig and create a new one.
+//if you create a new form then ad the class and the type of the components of the data base table
+// everything comes from symphony
+
+
+//start the application - php bin/console server:run or
+//edit configurations/php scrip/server navigate to bin console, arguments: server:run, fix the interpretator.
+

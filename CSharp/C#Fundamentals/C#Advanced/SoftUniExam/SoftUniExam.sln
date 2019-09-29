@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTransfer", "01.DataTransfer\DataTransfer.csproj", "{33158891-E710-4277-8625-76CFFBC30759}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.DataTransfer", "01.DataTransfer", "{19885E67-D654-4A38-857C-D643FFF57FB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Tagram", "02.Tagram", "{C724014D-3934-4FAA-8005-98C1025584EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Miner", "03.Miner", "{24CB97BF-9341-4D3B-B528-93F87C8508B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.CupsAndBottles", "04.CupsAndBottles", "{CCDAFA30-9465-4E44-B2FC-5E5FA8CB6885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tagram", "02.Tagram\Tagram.csproj", "{716B473A-6EEB-4BF1-9613-23F2F924AA2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miner", "03.Miner\Miner.csproj", "{78B20A05-7F75-49A0-9D07-F4C8E7E72C73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CupsAndBottles", "04.CupsAndBottles\CupsAndBottles.csproj", "{60BF7B71-A474-4A19-B475-D3C9CF369ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33158891-E710-4277-8625-76CFFBC30759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33158891-E710-4277-8625-76CFFBC30759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33158891-E710-4277-8625-76CFFBC30759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33158891-E710-4277-8625-76CFFBC30759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716B473A-6EEB-4BF1-9613-23F2F924AA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716B473A-6EEB-4BF1-9613-23F2F924AA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716B473A-6EEB-4BF1-9613-23F2F924AA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716B473A-6EEB-4BF1-9613-23F2F924AA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B20A05-7F75-49A0-9D07-F4C8E7E72C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B20A05-7F75-49A0-9D07-F4C8E7E72C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B20A05-7F75-49A0-9D07-F4C8E7E72C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B20A05-7F75-49A0-9D07-F4C8E7E72C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BF7B71-A474-4A19-B475-D3C9CF369ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BF7B71-A474-4A19-B475-D3C9CF369ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BF7B71-A474-4A19-B475-D3C9CF369ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BF7B71-A474-4A19-B475-D3C9CF369ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33158891-E710-4277-8625-76CFFBC30759} = {19885E67-D654-4A38-857C-D643FFF57FB5}
+		{716B473A-6EEB-4BF1-9613-23F2F924AA2C} = {C724014D-3934-4FAA-8005-98C1025584EC}
+		{78B20A05-7F75-49A0-9D07-F4C8E7E72C73} = {24CB97BF-9341-4D3B-B528-93F87C8508B2}
+		{60BF7B71-A474-4A19-B475-D3C9CF369ED7} = {CCDAFA30-9465-4E44-B2FC-5E5FA8CB6885}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EB0F37B-3C3B-4DB5-B0BC-7DD8A9D1A751}
+	EndGlobalSection
+EndGlobal

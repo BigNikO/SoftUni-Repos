@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "5bfa68b6ef328c0cf7222337",
+    "title": "post",
+    "body": "my first body post",
+    "_acl": {
+      "creator": "kid_ByaBP7vRQ"
+    },
+    "_kmd": {
+      "lmt": "2018-11-25T09:17:41.976Z",
+      "ect": "2018-11-25T09:17:41.976Z"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+# IDEs
+.vscode/
+.idea/
+
+
+desktop.ini
+folder.ico
+
+# NodeJS
+node_modules/
